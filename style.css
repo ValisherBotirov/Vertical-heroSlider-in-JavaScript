@@ -48,7 +48,7 @@ img {
   font-size: 20px;
   border-radius: 10px;
   border: none;
-  background-color: rgb(255, 4, 4);
+  background-color: #fff;
   z-index: 1;
 }
 .btn--pastga {
@@ -59,4 +59,29 @@ img {
 
 .btn--tepaga {
   position: absolute;
+}
+
+/* left flex */
+.box {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box-1 {
+  background-color: rgb(255, 230, 230);
+}
+.box-2 {
+  background-color: rgb(189, 185, 185);
+}
+.box-3 {
+  background-color: rgb(255, 146, 146);
+}
+.box-4 {
+  background-color: rgb(115, 215, 255);
+}
+
+.left {
+  transform: translateY(-300vh);
+  transition: all 1.5s;
 }
